@@ -2,7 +2,7 @@ const express =  require("express")
 const nodemailer = require('nodemailer');
 const dotenv = require("dotenv")
 const cors = require("cors")
-
+const path = require('path')
 
 dotenv.config()
 
